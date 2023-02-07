@@ -1,4 +1,3 @@
-// tang zheng
 // This file implements the functions 
 
 #include "json.h"
