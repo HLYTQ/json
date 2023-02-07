@@ -1,4 +1,4 @@
-/* (2023-1-8) C++ tangzheng
+/* (2023-1-8) C++ tz
  * A tiny C++ JSON interpreter using modern C++
  * Cpp YES!!!
  */
