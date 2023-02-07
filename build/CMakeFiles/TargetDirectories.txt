@@ -1,0 +1,3 @@
+/home/atlas/programmer/Cpp/json/build/CMakeFiles/JSON.dir
+/home/atlas/programmer/Cpp/json/build/CMakeFiles/edit_cache.dir
+/home/atlas/programmer/Cpp/json/build/CMakeFiles/rebuild_cache.dir

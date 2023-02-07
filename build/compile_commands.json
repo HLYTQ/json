@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/atlas/programmer/Cpp/json/build",
+  "command": "/usr/bin/g++    -O0 -Wall -g -ggdb -o CMakeFiles/JSON.dir/main.cc.o -c /home/atlas/programmer/Cpp/json/main.cc",
+  "file": "/home/atlas/programmer/Cpp/json/main.cc"
+},
+{
+  "directory": "/home/atlas/programmer/Cpp/json/build",
+  "command": "/usr/bin/g++    -O0 -Wall -g -ggdb -o CMakeFiles/JSON.dir/json.cc.o -c /home/atlas/programmer/Cpp/json/json.cc",
+  "file": "/home/atlas/programmer/Cpp/json/json.cc"
+},
+{
+  "directory": "/home/atlas/programmer/Cpp/json/build",
+  "command": "/usr/bin/g++    -O0 -Wall -g -ggdb -o CMakeFiles/JSON.dir/parser.cc.o -c /home/atlas/programmer/Cpp/json/parser.cc",
+  "file": "/home/atlas/programmer/Cpp/json/parser.cc"
+}
+]
