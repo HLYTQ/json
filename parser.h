@@ -1,4 +1,3 @@
-// tang zheng
 // This file used to parse the text of a json file
 
 #ifndef PARSER_H_
