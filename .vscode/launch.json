@@ -7,7 +7,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/build/JSON",
-            "args": [],
+            "args": ["${workspaceFolder}/test.json"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}/build",
             "environment": [],

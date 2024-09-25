@@ -1,1 +1,1 @@
-/usr/bin/g++  -O0 -Wall -g -ggdb -rdynamic CMakeFiles/JSON.dir/main.cc.o CMakeFiles/JSON.dir/json.cc.o CMakeFiles/JSON.dir/parser.cc.o -o JSON 
+/usr/bin/c++  -O0 -Wall -g -ggdb -rdynamic CMakeFiles/JSON.dir/main.cc.o CMakeFiles/JSON.dir/json.cc.o CMakeFiles/JSON.dir/parser.cc.o -o JSON

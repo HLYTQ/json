@@ -1,47 +1,28 @@
 #include "json.h"
 #include <cstring>
-#include <iostream>
 #include <fstream>
+#include <iostream>
 #include <sstream>
 
 using namespace myJson;
 
-int main(int argc, char *argv[]){
-    std::string file_name; 
-
-    for(int i = 0; i < argc ; ++i){
-        bool print_flag = false;
-        if(strcmp(argv[i], "--print") == 0){
-            print_flag = true;
-        }else if (strcmp(argv[i], "-p") == 0){
-            print_flag = true;
-        }else{
-            file_name(argv[i])
-            std::ifstream fin("./test.json");
-
-            std::stringstream ss;
-            ss << fin.rdbuf();
-
-            std::string str = ss.str();
-
-            Json v;
-            v.parse(str);
-            if(print_flag == true){
-                std::cout<<v.str()<<std::endl;
-            }
-        }
-    }
-
-    //std::ifstream fin("./test.json");
-
-    //std::stringstream ss;
-    //ss << fin.rdbuf();
-
-    //std::string str = ss.str();
-
-    //Json v;
-    //v.parse(str);
-
+int main(int argc, char *argv[]) {
+  std::ifstream fin("/home/durandal/Programmer/compile/json/test.json");
+  if (!fin.is_open()) {
+    std::cout << "not open file.\n";
     return 0;
-}
+  }
+  std::stringstream ss;
+  ss << fin.rdbuf();
 
+  std::string str = ss.str();
+
+  Json v;
+  v.parse(str);
+  std::string ver = v["version"];
+  std::cout << ver << '\n';
+  for (auto it = v["myarr"].begin(); it != v["myarr"].end(); ++it) {
+    std::cout << it->asInt() << '\n';
+  }
+  return 0;
+}
