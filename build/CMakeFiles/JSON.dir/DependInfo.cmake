@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/durandal/Programmer/compile/json/json.cc" "CMakeFiles/JSON.dir/json.cc.o" "gcc" "CMakeFiles/JSON.dir/json.cc.o.d"
-  "/home/durandal/Programmer/compile/json/main.cc" "CMakeFiles/JSON.dir/main.cc.o" "gcc" "CMakeFiles/JSON.dir/main.cc.o.d"
-  "/home/durandal/Programmer/compile/json/parser.cc" "CMakeFiles/JSON.dir/parser.cc.o" "gcc" "CMakeFiles/JSON.dir/parser.cc.o.d"
+  "D:/programms/json/json.cc" "CMakeFiles/JSON.dir/json.cc.obj" "gcc" "CMakeFiles/JSON.dir/json.cc.obj.d"
+  "D:/programms/json/main.cc" "CMakeFiles/JSON.dir/main.cc.obj" "gcc" "CMakeFiles/JSON.dir/main.cc.obj.d"
+  "D:/programms/json/parser.cc" "CMakeFiles/JSON.dir/parser.cc.obj" "gcc" "CMakeFiles/JSON.dir/parser.cc.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

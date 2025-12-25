@@ -1,20 +1,20 @@
 [
 {
-  "directory": "/home/durandal/Programmer/compile/json/build",
-  "command": "/usr/bin/g++  -O0 -Wall -g -ggdb -o CMakeFiles/JSON.dir/main.cc.o -c /home/durandal/Programmer/compile/json/main.cc",
-  "file": "/home/durandal/Programmer/compile/json/main.cc",
-  "output": "CMakeFiles/JSON.dir/main.cc.o"
+  "directory": "D:/programms/json/build",
+  "command": "D:\\MinGW64\\mingw64\\bin\\g++.exe    -O0 -Wall -g -ggdb -o CMakeFiles\\JSON.dir\\main.cc.obj -c D:\\programms\\json\\main.cc",
+  "file": "D:/programms/json/main.cc",
+  "output": "CMakeFiles/JSON.dir/main.cc.obj"
 },
 {
-  "directory": "/home/durandal/Programmer/compile/json/build",
-  "command": "/usr/bin/g++  -O0 -Wall -g -ggdb -o CMakeFiles/JSON.dir/json.cc.o -c /home/durandal/Programmer/compile/json/json.cc",
-  "file": "/home/durandal/Programmer/compile/json/json.cc",
-  "output": "CMakeFiles/JSON.dir/json.cc.o"
+  "directory": "D:/programms/json/build",
+  "command": "D:\\MinGW64\\mingw64\\bin\\g++.exe    -O0 -Wall -g -ggdb -o CMakeFiles\\JSON.dir\\json.cc.obj -c D:\\programms\\json\\json.cc",
+  "file": "D:/programms/json/json.cc",
+  "output": "CMakeFiles/JSON.dir/json.cc.obj"
 },
 {
-  "directory": "/home/durandal/Programmer/compile/json/build",
-  "command": "/usr/bin/g++  -O0 -Wall -g -ggdb -o CMakeFiles/JSON.dir/parser.cc.o -c /home/durandal/Programmer/compile/json/parser.cc",
-  "file": "/home/durandal/Programmer/compile/json/parser.cc",
-  "output": "CMakeFiles/JSON.dir/parser.cc.o"
+  "directory": "D:/programms/json/build",
+  "command": "D:\\MinGW64\\mingw64\\bin\\g++.exe    -O0 -Wall -g -ggdb -o CMakeFiles\\JSON.dir\\parser.cc.obj -c D:\\programms\\json\\parser.cc",
+  "file": "D:/programms/json/parser.cc",
+  "output": "CMakeFiles/JSON.dir/parser.cc.obj"
 }
 ]
