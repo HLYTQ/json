@@ -1,3 +1,0 @@
-"D:\Program Files\cmake-4.1.1-windows-x86_64\cmake-4.1.1-windows-x86_64\bin\cmake.exe" -E rm -f CMakeFiles\JSON.dir/objects.a
-D:\MinGW64\mingw64\bin\ar.exe qc CMakeFiles\JSON.dir/objects.a @CMakeFiles\JSON.dir\objects1.rsp
-D:\MinGW64\mingw64\bin\g++.exe  -O0 -Wall -g -ggdb -Wl,--whole-archive CMakeFiles\JSON.dir/objects.a -Wl,--no-whole-archive -o JSON.exe -Wl,--out-implib,libJSON.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\JSON.dir\linkLibs.rsp
